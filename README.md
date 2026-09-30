@@ -4,7 +4,9 @@
 
 Clip & Board is a native macOS clipboard manager. It keeps the text and links you copy, lets you search them, and puts them back on your clipboard. Your history is encrypted and stored on your Mac.
 
-**[Download the latest version](https://github.com/devtownhall/clip-and-board/releases/latest/download/Clip-and-Board.zip)** · [devtownhall.com/clipboard](https://devtownhall.com/clipboard)
+**[Download the beta](https://github.com/devtownhall/clip-and-board/releases)** · [devtownhall.com/clipboard](https://devtownhall.com/clipboard)
+
+**Public beta.** Builds aren't notarized yet, so macOS blocks the app the first time you open it. Each release's notes show the one step that gets past this.
 
 Requires **macOS 14 or later** on a Mac with **Apple Silicon**.
 
@@ -12,8 +14,8 @@ This repository publishes releases only. The source code isn't public.
 
 ## Install
 
-1. Download `Clip-and-Board.zip` from the [latest release](https://github.com/devtownhall/clip-and-board/releases/latest) and open it.
-2. Move **Clip & Board** to your Applications folder and open it. It lives in the menu bar and has no Dock icon.
+1. Download the zip from the newest release on the [Releases page](https://github.com/devtownhall/clip-and-board/releases) and open it.
+2. Move **Clip & Board** to your Applications folder. Follow that release's notes to open it the first time. It lives in the menu bar and has no Dock icon.
 3. On macOS 15.4 and later, macOS asks before an app can read what you copy in other apps. Choose **Always Allow**. If you miss the prompt, set it in **System Settings → Privacy & Security**.
 
 Press **⌃⌘V** in any app to open your history. You can change the shortcut in Settings.
@@ -55,7 +57,7 @@ To update, quit Clip & Board from the menu bar, replace the app in Applications,
 Each release lists the SHA-256 of its zip. To compare:
 
 ```sh
-shasum -a 256 ~/Downloads/Clip-and-Board.zip
+shasum -a 256 ~/Downloads/Clip-and-Board*.zip
 ```
 
 ## Removing it
